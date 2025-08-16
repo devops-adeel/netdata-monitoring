@@ -1,0 +1,38 @@
+# Environment variables (contains sensitive tokens)
+.env
+.env.local
+.env.*.local
+
+# Docker volumes
+volumes/
+data/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Node modules (if any frontend is added later)
+node_modules/
+
+# Python virtual environment (if scripts are added)
+venv/
+.venv/
+__pycache__/
+*.pyc
